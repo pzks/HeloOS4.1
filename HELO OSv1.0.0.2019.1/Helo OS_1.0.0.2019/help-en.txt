@@ -1,0 +1,78 @@
+
+                | HELO OS  ------------  H E L P |
+
+
+--------------------------------------------------------------------
+ __________________________________________________________________
+|    Helo OS "32-bit" is a development operating system used       |
+|                                                                  |
+|to develop system that can run smaller on both virtual and        |
+|                                                                  |
+|real machines . support for paging memory management , graphical  |
+|                                                                  |
+|interfaces , mouse , keyboard , console and other drivers ,       |
+|                                                                  |
+|as well as some applications .                                    |
+|__________________________________________________________________|
+
+                  copyright(C) 2019 PZK .
+
+---------------------------------------------------------------------
+
+COMMOND:
+---------------------------------------------------------------------
+mem ..................... look at the memory
+
+invader ................. alien game
+
+tview ................... a reader
+
+(   usage : tview file -w30 -h30   )
+
+gview ................... look up a cigarette
+
+(   usage : gview file             )
+
+cls ...................... clean command line contents
+
+dir ...................... file directory
+
+about .................... about
+
+mmlplay ................... mmlplay
+
+(   usage : mmlply file           )
+
+bball ................... the ball
+
+calc .................... command line calculator
+
+(   usage : calc 2*3  supports the symbol * / - + ( )    )
+
+type ................... output file content
+
+(   usage : type file            )
+
+
+
+----------------------------------------------------------------------
+hot keybord
+______________________________________________________________________
+
+
+shift + f1 .......................... exit
+
+shift + f2 .......................... reopen a command line window
+
+
+
+______________________________________________________________________
+                       |
+by : pzk               |
+                       |
+Helo OS  V1.0.0.2018   |
+                       |
+2018 - 12 - 9          |
+_______________________|_______________________________________________
+
+ÄãºÃ????
