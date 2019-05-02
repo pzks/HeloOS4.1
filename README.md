@@ -8,7 +8,7 @@ Helo OS 的最大特点就是小 ，内核 HELO.SYS 只有 44.8K ，其大小一
 注意，支持中文显示。
 独立内核，独立运行程序 。图形化界面，界面友好，且有时间，壁纸，窗口，应用程序等
 
-官网地址:https://heloos.gitee.io/my/
+官网地址:http://helo.host3v.vip/
 
 欢迎加入HELO OS系统交流QQ群，群聊号码：644813094
 
