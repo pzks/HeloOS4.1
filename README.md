@@ -19,3 +19,5 @@ Helo OS 的最大特点就是小 ，内核 HELO.SYS 只有 44.8K ，其大小一
 X86 Windows
 
 #2019年7月12日 开始更新 。。。。。
+
+![](https://images.gitee.com/uploads/images/2019/0718/110350_5ee9cd5c_4803184.png "屏幕截图.png")
