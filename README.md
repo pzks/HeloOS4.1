@@ -14,10 +14,18 @@ Helo OS 的最大特点就是小 ，内核 HELO.SYS 只有 45.6K ，其大小一
 作者QQ:2357749867
 邮箱:2357749867@qq.com
 
+3.1新版本支持关机了！
+并且也完善了文件系统，拥有一个不完整的文件操作！
+并且修复的壁纸显示的漏洞！
+完善了shell和图形界面，最重要的是：
+Helo OS软件移植了好多软件和API软件开发接口，功能更加强大，请大家自己探索吧！
+
+更多请关注论坛
+http://helym.hengit.ga/
+
 #  **_谢谢支持_** 
 #### 软件架构
 X86 Windows
 
-![Helo_OS 2.0.1](https://images.gitee.com/uploads/images/2019/0728/202843_d2fbf65c_4803184.png "Helo_OS 2.0.1截图")
-![Helo_OS 2.0.1](https://images.gitee.com/uploads/images/2019/0728/202851_db2e5f33_4803184.png "Helo_OS 2.0.1截图")
-![Helo_OS 2.0.1](https://images.gitee.com/uploads/images/2019/0728/202859_9d8148b0_4803184.png "Helo_OS 2.0.1截图")
+![3.1](https://images.gitee.com/uploads/images/2019/1007/132054_6bac5846_4803184.png "heloos1.png")
+![3.1](https://images.gitee.com/uploads/images/2019/1007/132110_6670ebd5_4803184.png "heloos.png")
