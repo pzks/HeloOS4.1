@@ -14,9 +14,7 @@ int main(int argc, UCHAR **argv)
 	int heap_siz, mmarea, fsiz, dsize, dofs, stksiz, wrksiz, entry, bsssiz;
 	int heap_adr, i;
 	FILE *fp;
-	static UCHAR sign[4] = "Helo!";//helo OS 标准！！！
-
-	/* パラメータの取得 */
+	static UCHAR sign[4] = "Helo!"; //Helo OS 标准！！！
 	if (argc < 4) {
 		puts("usage>bim2hel appname.bim appname.hel heap-size [mmarea-size]");
 		return 1;
@@ -25,8 +23,6 @@ int main(int argc, UCHAR **argv)
 	mmarea = 0;
 	if (argc >= 5)
 		mmarea = getnum(argv[4]);
-
-	/* ファイル読み込み */
 	fp = fopen(argv[1], "rb");
 	if (fp == NULL) {
 err_bim:
@@ -37,26 +33,22 @@ err_bim:
 	fclose(fp);
 	if (fsiz >= MAXSIZ || fsiz < 0)
 		goto err_bim;
-
-	/* ヘッダ確認 */
-	if (get32(&fbuf[4]) != 0x24) {	/* ファイル中の.textスタートアドレス */
+	if (get32(&fbuf[4]) != 0x24) {
 err_form:
 		puts("bim file format error");
 		return 1;
 	}
-	if (get32(&fbuf[8]) != 0x24)	/* メモリロード時の.textスタートアドレス */
+	if (get32(&fbuf[8]) != 0x24)
 		goto err_form;
-	dsize  = get32(&fbuf[12]);	/* .dataセクションサイズ */
-	dofs   = get32(&fbuf[16]);	/* ファイルのどこに.dataセクションがあるか */
-	stksiz = get32(&fbuf[20]);	/* スタックサイズ */
-	entry  = get32(&fbuf[24]);	/* エントリポイント */
-	bsssiz = get32(&fbuf[28]);	/* bssサイズ */
-
-	/* ヘッダ生成 */
+	dsize  = get32(&fbuf[12]);
+	dofs   = get32(&fbuf[16]);
+	stksiz = get32(&fbuf[20]);
+	entry  = get32(&fbuf[24]);
+	bsssiz = get32(&fbuf[28]);
 	heap_adr = stksiz + dsize + bsssiz;
-	heap_adr = (heap_adr + 0xf) & 0xfffffff0; /* 16バイト単位に切り上げ */
+	heap_adr = (heap_adr + 0xf) & 0xfffffff0;
 	wrksiz = heap_adr + heap_siz;
-	wrksiz = (wrksiz + 0xfff) & 0xfffff000; /* 4KB単位に切り上げ */
+	wrksiz = (wrksiz + 0xfff) & 0xfffff000;
 	put32(&fbuf[ 0], wrksiz);
 	for (i = 0; i < 4; i++)
 		fbuf[4 + i] = sign[i];
@@ -67,8 +59,6 @@ err_form:
 	put32(&fbuf[24], 0xe9000000);
 	put32(&fbuf[28], entry - 0x20);
 	put32(&fbuf[32], heap_adr);
-
-	/* ファイル書き込み */
 	fp = fopen(argv[2], "wb");
 	if (fp == NULL) {
 err_hrb:
