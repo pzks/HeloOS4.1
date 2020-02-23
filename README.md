@@ -24,8 +24,6 @@ Helo OS软件移植了好多软件和API软件开发接口，功能更加强大�
 http://bbs.heloym.ml/
 
 #  **_谢谢支持_** 
-#### 软件架构
-X86 Windows
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175455_395612c1_4803184.png "7.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175559_6215236c_4803184.png "5.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175507_c951974c_4803184.png "4.png")
