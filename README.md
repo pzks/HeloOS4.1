@@ -21,7 +21,7 @@ Helo OS 的最大特点就是小 ，内核 HELO.SYS 只有 45.6K ，其大小一
 Helo OS软件移植了好多软件和API软件开发接口，功能更加强大，请大家自己探索吧！
 
 更多请关注论坛
-http://bbs.heloym.ml/
+http://bbs.heloym.cn/
 
 #  **_谢谢支持_** 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175455_395612c1_4803184.png "7.png")
