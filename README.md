@@ -21,11 +21,14 @@ Helo OS 的最大特点就是小 ，内核 HELO.SYS 只有 45.6K ，其大小一
 Helo OS软件移植了好多软件和API软件开发接口，功能更加强大，请大家自己探索吧！
 
 更多请关注论坛
-http://bbs.heloym.ml/
+http://www.heloym.cn/
 
 #  **_谢谢支持_** 
-#### 软件架构
-X86 Windows
-
-![3.1](https://images.gitee.com/uploads/images/2019/1007/132054_6bac5846_4803184.png "heloos1.png")
-![3.1](https://images.gitee.com/uploads/images/2019/1007/132110_6670ebd5_4803184.png "heloos.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175455_395612c1_4803184.png "7.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175559_6215236c_4803184.png "5.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175507_c951974c_4803184.png "4.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175515_c368012f_4803184.png "9.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175523_abe15712_4803184.png "3.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175538_742e671e_4803184.png "1.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175544_3bb1387b_4803184.png "2.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0223/175608_a327cc8f_4803184.png "9.png")
